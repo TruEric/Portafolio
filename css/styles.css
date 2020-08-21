@@ -1,0 +1,111 @@
+@media only screen and ( min-width:375px ){
+
+    header{
+        background-color: #333;
+        height: 50px;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    
+    .nav-wrapper{
+        width: 100%;
+        /* background-color: sandybrown; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 13px;   
+    }
+
+    .name{
+        width: 30%;
+    }
+
+    .list-style{
+        /*background-color: skyblue;*/
+        color: rgb(200, 200, 200);
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        width: 32%;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+        padding: 6px;
+    }
+    
+    .link-nav:hover{
+        cursor: pointer;
+        color: rgb(100, 100, 100);
+    }
+
+    .nav-wrapper{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 13px;   
+    }
+
+    body{
+        margin: 0;
+        padding: 0;
+    }    
+
+}
+
+@media only screen and ( min-width:768px ){
+    
+    header{
+        background-color: #333;
+        height: 50px;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    
+    .nav-wrapper{
+        width: 100%;
+        /* background-color: sandybrown; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 26px;   
+    }
+    
+    .name{
+        width: 12%;
+        /*background-color: salmon;*/
+    }
+      
+    .list-style{
+        /*background-color: skyblue;*/
+        color: rgb(200, 200, 200);
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        width: 32%;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+        padding: 6px;
+    }
+    
+    .link-nav:hover{
+        cursor: pointer;
+        color: rgb(100, 100, 100);
+    }
+    
+    body{
+        margin: 0;
+        padding: 0;
+    }    
+}
